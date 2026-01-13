@@ -85,5 +85,7 @@ By completing Milestone 1, the project achieves:
 This milestone serves as the technical baseline upon which all future AI-driven testing capabilities will be built.
 
 ---
+## Milestone Number
+**Milestone 2: Foundation Setup and Baseline Agent Implementation (Week 2–4)**
 
 **Prepared by:** ABHINAV PADIGE
