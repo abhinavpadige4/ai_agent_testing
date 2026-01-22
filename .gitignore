@@ -44,3 +44,4 @@ htmlcov/
 .nox/
 .pytest_cache/
 .cache/
+.env
