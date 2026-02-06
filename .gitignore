@@ -1,47 +1,63 @@
+# ===============================
 # Python
+# ===============================
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Virtual environments
-venv/
+.Python
 env/
-.env/
-*.venv/
+venv/
+.venv/
 
-# Flask instance folder
+# ===============================
+# Virtual Environment (Windows)
+# ===============================
+venv/
+ENV/
+env/
+
+# ===============================
+# Playwright
+# ===============================
+ms-playwright/
+playwright-report/
+test-results/
+
+# ===============================
+# Generated Tests (AUTO FILES)
+# ===============================
+app/generated_tests/
+test_error.png
+test_warning.png
+screenshot.png
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+
+# ===============================
+# Flask / Debug
+# ===============================
 instance/
-*.sqlite3
-
-# Logs
 *.log
 
-# Static / compiled assets (optional, if you build them locally)
-*.pyc
-/static/__pycache__/
-*.css.map
-*.js.map
-
-# IDEs
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS files
+# ===============================
+# OS Files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# Python test / coverage
-.coverage
-htmlcov/
-.tox/
-.nox/
-.pytest_cache/
-.cache/
-.env
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Node (if accidentally installed)
+# ===============================
+node_modules/
+package-lock.json
