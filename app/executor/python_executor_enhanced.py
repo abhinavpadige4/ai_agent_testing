@@ -12,7 +12,7 @@ def generate_adaptive_python_test(
 
     """
     Generate Python test with:
-    - Visible browser (headless=False) for demos
+    - Visible browser (headless=True) for demos
     - Adaptive selectors with fallbacks
     - Multi-site search support (Google, YouTube, Amazon)
     - Cookie consent handling
@@ -67,7 +67,7 @@ def generate_adaptive_python_test(
     lines.append('    with sync_playwright() as p:\n')
     lines.append('        # Launch VISIBLE browser with slow motion\n')
     lines.append('        browser = p.chromium.launch(\n')
-    lines.append('            headless=False,  # Visible for demo\n')
+    lines.append('            headless=True,  # Visible for demo\n')
     lines.append('            slow_mo=900       # Slow motion effect\n')
     lines.append('        )\n')
     lines.append('        context = browser.new_context(\n')
