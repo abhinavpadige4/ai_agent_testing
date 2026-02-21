@@ -274,7 +274,7 @@ if page == "Execute Tests":
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("Local Authentication Test", use_container_width=True):
+        if st.button("Authentication Test", use_container_width=True):
             st.session_state.instruction = """open browser go to https://login-admin-testing.vercel.app/
                 type admin into #username
                 type admin123 into #password
