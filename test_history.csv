@@ -42,3 +42,13 @@ click first video",failed,False,0,4,True,https://www.youtube.com,False,,0,,app/g
                 type admin into #username
                 type admin123 into #password
                 click #loginBtn",failed,False,0,4,True,http://127.0.0.1:5500/login.html,False,,0,,app/generated_tests\test_20260219_040656.py,test_logs/20260219_040750.json
+20260219_181948,2026-02-19 18:19:48,"open browser go to https://www.google.com
+                search python playwright documentation",passed,True,0,2,True,https://www.google.com,False,,0,,app/generated_tests\test_20260219_181826.py,test_logs/20260219_181948.json
+20260219_182506,2026-02-19 18:25:06,"open browser go to http://127.0.0.1:5500/login.html
+                type admin into #username
+                type admin123 into #password
+                click #loginBtn",failed,False,0,4,True,http://127.0.0.1:5500/login.html,False,,0,,app/generated_tests\test_20260219_182433.py,test_logs/20260219_182506.json
+20260219_184638,2026-02-19 18:46:38,"open browser go to https://www.youtube.com
+                search automation testing tutorial
+                wait 3000
+                click first video",failed,False,0,4,True,https://www.youtube.com,False,,0,,app/generated_tests\test_20260219_184441.py,test_logs/20260219_184638.json
